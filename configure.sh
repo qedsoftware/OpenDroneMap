@@ -28,7 +28,8 @@ sudo apt-get install build-essential \
                      libgdal-dev \
                      gdal-bin \
                      libgeotiff-dev \
-                     pkg-config -y -qq
+                     pkg-config -y -qq \
+                     libimage-exiftool-perl
 if [ $? -ne 0 ] 
 then
     echo -e "\e[1;31mERROR: \e[39mWhen Installing Required Requisites\e[0m"
